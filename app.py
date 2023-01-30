@@ -8,7 +8,7 @@ app = Flask(__name__)
 GPIO.setmode(GPIO.BCM)
 
 # Define GPIO pin for servo motor
-servo_pin = 19
+servo_pin = 21
 
 # Set up servo motor on GPIO pin
 GPIO.setup(servo_pin, GPIO.OUT)
