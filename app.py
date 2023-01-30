@@ -45,4 +45,4 @@ def move_servo(servo_pos):
     return "Servo position set to {}".format(servo_pos)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8000, threaded=True, debug=true)
+    app.run(host='0.0.0.0', port=8000, threaded=True, debug=False)
